@@ -1,0 +1,166 @@
+body,html{
+    background-color: white;
+    margin: 0;
+    height: 100%;
+    text-decoration: none;
+    
+
+    }
+
+
+
+li a {
+    background-color:rgb(118, 155, 179);
+    color:black;
+    text-decoration:none;
+    padding:20px;
+    float: left;
+}
+.navbar{
+    background-color:rgb(118, 155, 179);
+    overflow:hidden;
+    list-style: none;
+    font-size:20px;
+    padding: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar a:hover{
+    background-color:grey;
+    color:whitesmoke;
+}
+.hero-image{
+    background-image:url("https://images.unsplash.com/photo-1559548290-d6b0cb6c9050?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    height: 650px;
+    overflow: hidden;
+}
+.herotxt{
+    color: white;
+    position: absolute;
+    top: 29%;
+    left: 20%;
+   font-size: 77px;
+   overflow: hidden;
+}
+
+.image{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100px;
+    padding: 5px;
+    overflow: hidden;
+   
+
+}
+
+.container{
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+  box-sizing: border-box;
+  float: left;
+  padding: 30px;
+  
+}
+.types{
+    float: left;
+    color:whitesmoke;
+    padding: 5px;
+    margin: 0;
+    background-color:lightslategray;
+    font-size: 15px;
+    box-sizing: border-box;
+    
+    
+
+
+}
+ 
+.name{
+    text-align: center;
+    color: black;
+    
+   
+   
+}
+
+
+.name2{
+    text-align: center;
+  
+   
+}
+
+
+#footer{
+    position: relative;
+    text-align:center;
+    width:100%;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+
+}
+
+  /* affects the */
+ .fa{
+    padding:20px;
+    width: 25px;
+    text-align:center;
+    text-decoration:none;  
+    
+}
+  /* Facebook style */
+  .fa-facebook{
+    background:#3B5998;
+    color:white;
+   
+  }
+  /*Twitter style*/
+  .fa-twitter{
+    background:#55ACEE;
+    color:white;
+  }
+  /*Instagram style*/
+  .fa-instagram{
+    background:#125688;
+    color:white;
+    
+  }
+/* affects the logo */
+.logo img{
+    float:left;
+    width:5%;
+  }
+
+
+  
+
+@media screen and (max-width: 700px){
+  .image{
+    width: 50%;
+    float: right;
+  }
+  .container{
+  float: right;
+  font-size: 70%;
+  display: block;
+}
+}
+/* @media screen and (min-width: 700px){
+  .image{
+    width: 50%;
+    float: right;
+  }
+  .container{
+  float: right;
+  font-size: 70%;
+  display: block;
+}
+} */

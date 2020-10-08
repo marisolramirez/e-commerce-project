@@ -1,0 +1,135 @@
+body,html{
+    background-color: white;
+    margin: 0;
+    height: 100%;
+}
+
+
+
+
+li a {
+    background-color:rgb(118, 155, 179);
+    color:black;
+    text-decoration:none;
+    padding:20px;
+    float: left;
+   
+  }
+  /* navbar */
+  .navbar{
+    background-color:rgb(118, 155, 179);
+    overflow:hidden;
+    list-style: none;
+    color:white;
+    font-size:20px;
+    padding: 15px;
+    margin: 0;
+    padding: 0;
+  
+  }
+    
+  /*  style hover */
+  .navbar a:hover{
+    background-color:grey;
+    color:white;
+  }
+  
+  .hero-image{
+    background-image:url("https://images.unsplash.com/photo-1503926359680-9ddd5b2bcbdc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    height: 780px;
+  }
+  /*affect's only your h1*/
+  .herotxt{
+    position: absolute;
+    padding: 5px;
+    color:white;
+    font-size: 77px;
+    top: 29%;
+    left: 15%;
+    
+  }
+  
+  .Contact-Information{
+    border: black solid 2px;
+    padding:50px;
+    text-align: left;
+  }
+  
+  input[type="text"], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  
+  
+  /* affects only your button */
+  .button{
+    background-color: gainsboro;
+    padding:10px 15px;
+    border-radius:5px;
+    font-size:15px;
+    padding:10px 24px;
+    width:150px;
+  }
+  
+  .button:hover{
+    background:whitesmoke;
+  }
+  
+  footer{
+    position: relative;
+    text-align:center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+  }
+  /* affects the */
+  .fa{
+    padding:20px;
+    font-size:30px;
+    width:30px;
+    text-align:center;
+    text-decoration:none;
+    border-radius: 5px;
+  }
+  /*Facebook style*/
+  .fa-facebook{
+    background:#3B5998;
+    color:white;
+  }
+  /*Twitter style*/
+  .fa-twitter{
+    background:#55ACEE;
+    color:white;
+  }
+  /*Instagram style*/
+  .fa-instagram{
+    background:#125688;
+    color:white;
+  }
+
+  .logo img{
+    float:left;
+    width:5%;
+  }
+  @media screen and (max-width: 800px){
+    .herotxt{
+      font-size: 59px;
+      text-align: center;
+    }
+  }
+  @media screen and (min-width: 700px){
+    .herotxt{
+      font-size: 59px;
+      text-align: center;
+    }
+  }
